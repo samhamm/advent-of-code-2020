@@ -19,9 +19,8 @@ fs.readFile('./input.txt', 'utf-8', (err, data) => {
             for (var k = 0; k < input[0].length; k++) {
             // console.log(i,j,k);
             if (parseInt(input[0][i]) + parseInt(input[0][j]) + parseInt(input[0][k]) === 2020) {
-                console.log(parseInt(input[0][i]) * parseInt(input[0][j])  * parseInt(input[0][k]));
-            
+                console.log(parseInt(input[0][i]) * parseInt(input[0][j])  * parseInt(input[0][k]));          
             }
         }
     }
-});
+}})
